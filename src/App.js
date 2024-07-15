@@ -1,5 +1,8 @@
+//U99796912
+
 import React, { useState } from 'react';
 import RateMovieButton from './components/RateMovieButton';
+import UploadButton from './components/UploadButton';
 import './App.css';
 
 const movies = ['Movie 1', 'Movie 2', 'Movie 3'];
@@ -21,6 +24,7 @@ function App() {
             ))}
           </select>
           <RateMovieButton movie={selectedMovie} />
+          <UploadButton />
         </div>
       </header>
     </div>
